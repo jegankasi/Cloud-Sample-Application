@@ -12,6 +12,6 @@
 
 
 FROM openjdk:11
-# ADD target/demo-spring-boot-docker.jar demo-spring-boot-docker.jar
+ADD Cloud-Sample-Application-0.0.1-cloud-sample.jar Cloud-Sample-Application-0.0.1-cloud-sample.jar
 EXPOSE 8085
 ENTRYPOINT ["java", "-jar", "Cloud-Sample-Application-0.0.1-cloud-sample.jar"]
